@@ -52,6 +52,6 @@ print("output list", reverse_all([[1, 2], [3, 4]]))
 
 
 ## i[::-1] this is the life saver but still its just a shalow copy with 1 layer of depth
-# but with deepcopy or recursion based we can solve this problem 
+# but with deepcopy or recursion based we can solve this problem for infinte depth
 # its like new_list = copy.deepcopy(original_list)
 # and then we can reverse it 
